@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: msevent50akslab-config
+  namespace: dev
+  labels:
+    app.kubernetes.io/name: msevent50akslab
+    kubernetes.azure.com/generator: devhub
+data:
